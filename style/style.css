@@ -1,0 +1,37 @@
+body{
+	padding-top: 50px;
+}
+.btn-right{
+	float: right;
+	margin-bottom: 50px;
+}
+td{
+    vertical-align: middle!important;
+}
+.panel{
+	width: 30%;
+}
+td:first-child, th:first-child, td:nth-child(3), td:nth-child(4){
+	text-align: center;
+}
+#info img{
+	width: 24%;
+	vertical-align: top;
+}
+tr button{
+	opacity: 0;
+}
+tr:hover button{
+	opacity: 1;
+}
+tbody{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+    -ms-user-select: none;
+}
+table{
+	margin-bottom: 0;
+}
+.disable{
+	display: none;
+}
